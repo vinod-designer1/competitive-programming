@@ -1,0 +1,2 @@
+def generalizedSufficeTree(stgAr):
+	pass

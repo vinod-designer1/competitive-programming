@@ -1,11 +1,7 @@
 n = input()
 solved = 0
-while n > 0:
-    s = 0 
-    for i in raw_input().strip().split():
-        s += int(i)
-        
-    if s > 1:
-        solved += 1
-    n -= 1
+for i in range(n):
+    s = raw_input().strip()
+    if s != '0 0 0' and s != '1 0 0' and s != '0 1 0' and s != '0 0 1':
+    	solved += 1
 print solved
